@@ -54,4 +54,4 @@ for ap in wifi.scan():
     print("Signal: " + str(ap.quality.getSignallevel()))
     print("Frequency: " + str(ap.frequency.getFrequency()))
     print("Channel: " + frequency_channel_map.get(ap.frequency.getFrequency()))
-    print("")
+    print(" ")
