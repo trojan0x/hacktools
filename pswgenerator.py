@@ -1,6 +1,6 @@
 import random
 
-#shuffle string characters
+# shuffle string characters
 def shuffle(string):
   tempList = list(string)
   random.shuffle(tempList)
